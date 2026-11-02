@@ -95,8 +95,19 @@ footer div.logo {
 
 main {
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content:center;
+}
+
+main div.container-row {
+    display:flex;
+    flex-flow:row;
+    justify-content: space-evenly;
+}
+
+main div.container-col {
+    display:flex;
+    flex-flow:column;
 }
 
 main h2#section-title {
