@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-    background-color:rgb(189, 189, 44);
+    background-color:rgb(229, 229, 55);
     color:darkmagenta;
     border-radius:0.3rem;
 }
@@ -149,6 +149,17 @@ section cite {
 
 section cite:before {
     content: "- ";
+}
+
+section th, td {
+    padding:0.5rem;
+    margin:0;
+}
+
+section th,td {
+    border: #000000;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
 
 div.disclaimer {
