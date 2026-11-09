@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Guess a Number </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Guess the Number!</h1>
+        <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+    </header>
+    <br>
+    <div id="main">
+        <div>
+            Enter a guess:
+            <input type="text" id="playerGuess" size="5">
+            <button id="guessBtn"> Guess </button>
+            <button id="resetBtn"> Reset </button>
+        </div>
+        <div id="remaining"> Remaining attemps:
+            <span id="remainingCount"></span>
+        </div>
+        <div id="feedback"></div>
+        <div id="guesses">
+            <h4>Previous Guesses:</h4>
+        </div>
+        <div id="totals">
+            Wins <span id="totalWins">0</span>
+            <span id="totalLosses">0</span> Losses
+        </div>
+    </div>
+
+    <footer>
+        <!--The footer will be added here -->
+
+        <div class="logo"></div>
+        <div>
+            <p>&copy; 2026 Eric Holm. All rights reserved. This site is for academic purposes only.</p>
+            <p>CST 336 Internet Programming</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    </script>
+</body>
+
+</html>
